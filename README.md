@@ -1,16 +1,124 @@
-# React + Vite
+# 🌐 Context API React Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React application demonstrating global state management using **React Context API**.
+This project showcases how to manage shared data across components without prop drilling, using clean architecture and scalable structure.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** https://context-api-pearl-theta.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* ⚛️ React + Vite setup
+* 🌍 Global state management using Context API
+* 🎯 Clean component structure
+* 📦 Modern JavaScript (ES6+)
+* 💅 Responsive UI
+* 🔁 Dynamic state updates across components
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧠 Concepts Covered
+
+* React Context API
+* useContext Hook
+* Global State Management
+* Component Re-rendering
+* Props vs Context
+* Event Handling
+
+---
+
+## 🛠️ Tech Stack
+
+* React.js
+* Vite
+* JavaScript (ES6)
+* HTML5
+* CSS3
+
+---
+
+## 📂 Project Structure
+
+```
+ContextAPI/
+│
+├── src/
+│   ├── components/
+│   ├── context/
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── public/
+├── index.html
+└── package.json
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+Clone the repository:
+
+```
+git clone https://github.com/rajsvmahendra/ContextAPI.git
+```
+
+Move into project folder:
+
+```
+cd ContextAPI
+```
+
+Install dependencies:
+
+```
+npm install
+```
+
+Run development server:
+
+```
+npm run dev
+```
+
+---
+
+## 📸 Preview
+
+Visit the deployed version here:
+
+👉 https://context-api-pearl-theta.vercel.app/
+
+---
+
+## 🎯 Purpose of Project
+
+This project was built to understand:
+
+* How global state works in React
+* How Context API reduces prop drilling
+* How to structure scalable frontend applications
+
+---
+
+## 👨‍💻 Author
+
+**Rajsv Mahendra**
+GitHub: https://github.com/rajsvmahendra
+
+---
+
+## ⭐ Future Improvements
+
+* Add Redux comparison example
+* Implement Theme Switching
+* Add Authentication Context
+* Improve UI animations
+
+---
+
+## 📜 License
+
+This project is open-source and available under the MIT License.
